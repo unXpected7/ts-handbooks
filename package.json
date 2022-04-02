@@ -1,0 +1,15 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "unXpected7 <ilyasyusuf002@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ndoemon indes.ts",
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  }
+}
