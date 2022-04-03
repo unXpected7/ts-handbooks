@@ -24,32 +24,6 @@ let printName = (): void => {
 
 printName();
 
-interface RootObject {
-  person: Person;
-  address: Address;
-  pet: Pet[];
-}
-
-interface Pet {
-  type: string;
-  name: string;
-  status: string;
-  hobby?: string;
-}
-
-interface Address {
-  city: string;
-  state: string;
-}
-
-interface Person {
-  name: string;
-  age: number;
-  hobby: string[];
-}
-
-//? ctrl + shift + alt + v for use ext json to ts 
-
 //? argument type
 
 function multipy(val1: number, val2: number): number {

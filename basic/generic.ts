@@ -1,9 +1,9 @@
-function getData(value: any) {
+function getData1(value: any) {
     return value;
 }
 
-console.log(getData("Nusembra").length);
-console.log(getData(222).length); //? tdk muncul error, solusi = gunakan generic
+console.log(getData1("Nusembra").length);
+console.log(getData1(222).length); //? tdk muncul error, solusi = gunakan generic
 
 //? Generic
 function myData<T>(value: T) {
